@@ -1,3 +1,3 @@
-# README
+# vscode-ace
 
-Slim language support for Visual Studio Code based on [https://github.com/slim-template/ruby-slim.tmbundle]
+Ace language [https://github.com/yosssi/ace] support for Visual Studio Code forked from [https://github.com/sianglim/vscode-slim]
