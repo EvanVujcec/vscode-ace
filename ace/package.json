@@ -1,10 +1,10 @@
 {
-    "name": "slim",
-    "displayName": "Slim",
-    "description": "Slim language support based on https://github.com/slim-template/ruby-slim.tmbundle",
+    "name": "ace",
+    "displayName": "Ace",
+    "description": "Ace language https://github.com/yosssi/ace support for Visual Studio Code forked from https://github.com/sianglim/vscode-slim",
     "version": "0.1.1",
-    "publisher": "sianglim",
-    "icon": "images/slim.jpg",
+    "publisher": "Evan Vujcec",
+    "icon": "images/ace-transparent.png",
     "engines": {
         "vscode": "^0.10.10"
     },
@@ -14,23 +14,22 @@
     "contributes": {
         "languages": [
             {
-                "id": "slim",
+                "id": "ace",
                 "aliases": [
-                    "slim-lang",
-                    "slim"
+                    "ace-lang",
+                    "ace"
                 ],
                 "extensions": [
-                    ".slim",
-                    ".skim"
+                    ".ace"
                 ],
-                "configuration": "./slim.configuration.json"
+                "configuration": "./ace.configuration.json"
             }
         ],
         "grammars": [
             {
-                "language": "slim",
-                "scopeName": "text.slim",
-                "path": "./syntaxes/slim.tmLanguage"
+                "language": "ace",
+                "scopeName": "text.ace",
+                "path": "./syntaxes/ace.tmLanguage"
             }
         ]
     }
