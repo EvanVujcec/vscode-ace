@@ -3,7 +3,7 @@
     "displayName": "Ace",
     "description": "Ace language https://github.com/yosssi/ace support for Visual Studio Code based off https://github.com/yosssi/ace-tmbundle",
     "version": "0.0.1",
-    "publisher": "Evan Vujcec",
+    "publisher": "evanvujcec",
     "icon": "images/ace.png",
     "engines": {
         "vscode": "^0.10.10"
